@@ -97,17 +97,25 @@ header {
     padding-top: 200px;
 }
 
-a.category-badge > span.badge:hover {
-    background: black !important; 
-    color: beige !important;
-}
-
 .row-products {
     padding-top: 10px;
 }
 
 .item {
     height: fit-content;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: beige;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /* -------------------------------- Media Queries */
