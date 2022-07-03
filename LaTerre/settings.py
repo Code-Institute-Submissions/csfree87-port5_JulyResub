@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
 
-    #Other
+    # Other
     'crispy_forms',
 ]
 
@@ -164,3 +164,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Stripe
+STRIPE_CURRENCY = 'usd'
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51LHasrFFJdnERMs4Xzl3oc2IySBIZzMceOwELHVp6RF8zzII7jTslwXVstu5kSNQypFa2qubypEakhzyXSTvCyNn00VdlOn0Cj')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
