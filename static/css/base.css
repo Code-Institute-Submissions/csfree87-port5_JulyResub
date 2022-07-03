@@ -85,6 +85,15 @@ header {
     z-index: -1;
 }
 
+.product-container {
+    padding-top: 100px;
+}
+
+.product-details-container, 
+.image-container {
+    padding-top: 200px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
