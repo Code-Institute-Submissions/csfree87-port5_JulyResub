@@ -97,6 +97,19 @@ header {
     padding-top: 200px;
 }
 
+a.category-badge > span.badge:hover {
+    background: black !important; 
+    color: beige !important;
+}
+
+.row-products {
+    padding-top: 10px;
+}
+
+.item {
+    height: fit-content;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
