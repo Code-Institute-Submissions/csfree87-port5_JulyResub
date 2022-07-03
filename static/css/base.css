@@ -118,6 +118,11 @@ header {
     cursor: pointer;
 }
 
+.container-shopping {
+    padding-top: 200px;
+    justify-content: center;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
