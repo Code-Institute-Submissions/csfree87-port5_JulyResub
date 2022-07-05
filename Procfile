@@ -1,1 +1,1 @@
-web: gunicorn laterre.wsgi:application
+web: gunicorn LaTerre.wsgi:application
