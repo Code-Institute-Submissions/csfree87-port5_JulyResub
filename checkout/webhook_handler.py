@@ -1,11 +1,13 @@
+import json
+import time
 from django.http import HttpResponse
-
-from .models import Order, OrderLineItem
+from django.core.mail import send_mail
+from django.template.loader import render_to_string
+from django.conf import settings
 from products.models import Product
 from profiles.models import UserProfile
 
-import json
-import time
+from .models import Order, OrderLineItem
 
 
 class StripeWH_Handler:
@@ -67,8 +69,10 @@ class StripeWH_Handler:
                 profile.default_country = shipping_details.address.country
                 profile.default_postcode = shipping_details.address.postal_code
                 profile.default_town_or_city = shipping_details.address.city
-                profile.default_street_address1 = shipping_details.address.line1
-                profile.default_street_address2 = shipping_details.address.line2
+                profile.default_street_address1 = (
+                    shipping_details.address.line1)
+                profile.default_street_address2 = (
+                    shipping_details.address.line2)
                 profile.default_county = shipping_details.address.state
                 profile.save()
 
