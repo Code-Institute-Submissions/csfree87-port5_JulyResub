@@ -131,6 +131,15 @@ header {
     justify-content: center;
 }
 
+  /* Facebook */
+
+
+.fa-facebook {
+    background: #d6c3a0;
+    color: rgb(15, 14, 14);
+    background-size: auto;
+  }
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
