@@ -10,6 +10,8 @@
     </div>
 {% endblock %}
 
+<!-- Shopping bag page -->
+
 {% block content %}
     <div class="overlay"></div>
     <div class="container mb-2">
@@ -71,7 +73,7 @@
                                     <th scope="col">Subtotal</th>
                                 </tr>
                             </thead>
-
+                            <!-- Shows bag items and details -->
                             {% for item in bag_items %}
                                 <tr>
                                     <td class="p-3 w-25">

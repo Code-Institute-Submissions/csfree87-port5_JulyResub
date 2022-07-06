@@ -1,3 +1,5 @@
+<!-- Search bar -->
+
 <li class="list-inline-item">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -20,6 +22,7 @@
         </form>
     </div>
 </li>
+<!-- Account link -->
 <li class="list-inline-item dropdown">
     <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center">
@@ -27,6 +30,7 @@
             <p class="my-0">My Account</p>
         </div>
     </a>
+    <!-- Nav links -->
     <div class="dropdown-menu border-0" aria-labelledby="user-options">
         {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
@@ -40,6 +44,7 @@
         {% endif %}
     </div>
 </li>
+<!-- Shopping total -->
 <li class="list-inline-item">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_bag' %}">
         <div class="text-center">
