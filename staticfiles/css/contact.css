@@ -1,0 +1,13 @@
+.contact-form {
+    display: block;
+    margin-left: 300px;
+    padding-left: 100px;
+    width: 100%;
+}
+
+input[type=text], input[type=email], input[type=text], textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    display: block;
+   }
