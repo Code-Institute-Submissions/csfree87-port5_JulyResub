@@ -135,16 +135,28 @@ I used the following validators to check my Javascript:
 
 Manual tests used on all the following pages:
 - https://laterre.herokuapp.com/
+![Testing](/media/mockup.png)
 - https://laterre.herokuapp.com/accounts/login/
-- https://laterre.herokuapp.com/accounts/signup/
-- https://laterre.herokuapp.com/accounts/logout/
-- https://barbers-flo.herokuapp.com/checkout/1/3/3713/
-- https://barbers-flo.herokuapp.com/checkout/checkout-success/12
-- https://barbers-flo.herokuapp.com/profile/
-- https://barbers-flo.herokuapp.com/bag/
-- https://barbers-flo.herokuapp.com/management/products/
+![Testing](/media/signedin.png)
+- https://laterre.herokuapp.com/accounts/logout
+![Testing](/media/signout.png)
+- https://laterre.herokuapp.com/checkout/
+![Testing](/media/checkout.png)
+- https://laterre.herokuapp.com/profile/
+![Testing](/media/profile.png)
+- https://laterre.herokuapp.com/bag/
+![Testing](/media/addtobag.png)
+- https://laterre.herokuapp.com/management/products/
+![Testing](/media/ProductMang1.png)
+- https://laterre.herokuapp.com/login/admin/
+![Testing](/media/admin.png)
+- https://laterre.herokuapp.com/product/add/
+![Testing](/media/editing.png)
+
 
 [JS Validator](https://jshint.com/)
+![Testing](/media/jsvalidator.png)
+
 
 ### Bugs
 
