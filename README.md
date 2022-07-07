@@ -121,6 +121,7 @@ The application functionalities were tested in three different scenarios:
         using stripe payment test card: 4242 4242 4242 4242 
 	- After completing the order, I received the confirmation email
 	- I can access the My Profile page, see my orders and update my details
+    - I can view blogs and add comments
 	
 3. Admin
 	- As a user, I can access using the login page and sign out using the logout page
