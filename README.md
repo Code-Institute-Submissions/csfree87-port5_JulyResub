@@ -216,3 +216,14 @@ The products name and description are original
 
 ### Images
 - [Pexels](https://pexels.com) for images used for products and home page
+
+### Marketing Strategies and business model
+
+Search Engine optimization performed: 
+    Using simple popular search terms for product categories such as lotions, candles, soaps, and fragrances and many other related terms via meta tags. Images named by searchable terms as well. 
+
+Facebook site for Web Marketing: https://www.facebook.com/profile.php?id=100082882941900
+
+Email marketing using signup newsletter
+
+Core strategy for business model a business to customer directly online shopping, to provide high quality scented products, utlizing social media and email marketing for customer sourcing, and mainting a luxury feel. 
