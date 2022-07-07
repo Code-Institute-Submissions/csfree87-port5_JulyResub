@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --no-input; gunicorn LaTerre.wsgi:application --log-file - --log-level debug
+web: gunicorn LaTerre.wsgi:application
